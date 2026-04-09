@@ -1,4 +1,4 @@
-package com.detach.detach_api
+package com.detach.api
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

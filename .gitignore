@@ -38,3 +38,7 @@ Thumbs.db
 
 # Kotlin
 *.kotlin_module
+
+
+# Environment variables (secrets)
+.env
