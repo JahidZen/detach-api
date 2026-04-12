@@ -2,7 +2,7 @@
 FROM gradle:9.4.1-jdk21-alpine AS build
 WORKDIR /app
 COPY . .
-RUN gradle clean buid -x test
+RUN gradle clean build -x test
 
 
 #Stage 2: Run
