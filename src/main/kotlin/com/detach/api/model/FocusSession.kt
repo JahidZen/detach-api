@@ -29,7 +29,7 @@ data class FocusSession(
     @Enumerated(EnumType.STRING)
     var status: FocusSessionStatus = FocusSessionStatus.ACTIVE,
 
-    var walletBalance: BigDecimal = BigDecimal.ZERO,
+    var stakeAmount: BigDecimal = BigDecimal.ZERO,
 
     @ManyToOne
     @JoinColumn("user_id")
